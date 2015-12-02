@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>
+    Riding a bike
+</title>
+<body>
+<h1>Data Encoding Table</h1>
+    <Table border="3" style="width:100%">
+    <tr>
+        <td colspan="4"><span style="font-weight:bold;">Riding a bike</span> </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <span style="font-weight:bold;">Component</span>
+        </td>
+        <td>
+            <span style="font-weight:bold;">Type</span>
+        </td>
+        <td>
+            <span style="font-weight:bold;">Number of bits/range</span>
+        </td>
+        <td>
+            <span style="font-weight:bold;">Description</span>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>Weather</td>
+        <td>ASCII</td>
+        <td>256 bits (0-32 characters)</td>
+        <td>A description of the weather outside when you go on the bike ride.</td>
+    </tr>
+       
+    <tr>
+        <td>Temperature</td>
+        <td>Number</td>
+        <td>7 bits (0-127 degrees)</td>
+        <td>The temperature when you go on the bike ride.</td>
+    </tr>
+    
+    <tr>
+        <td>How long it took</td>
+        <td>Number</td>
+        <td>1-8 bits (0-255 minutes)</td>
+        <td>The amount of time to finish the bike ride in minutes.</td>
+    </tr>
+    
+    <tr>
+        <td>Where you went</td>
+        <td>ASCII</td>
+        <td>256 bits (0-32 characters)</td>
+        <td>Where you went on the bike ride.</td>
+    </tr>
+      <tr>
+        <td>Who you went with</td>
+        <td>ASCII</td>
+        <td>512 bits (0-64 characters) </td>
+        <td>Who you went with on the bike ride.</td>
+    </tr>
+    </table>
+</body>
+</html>
